@@ -12,6 +12,25 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.contStyle {
+  justify-content: center;
+  display: flex;
+  overflow: hidden;
+  gap: 30px;
+}
+.contStyle2 {
+  justify-content: center;
+  display: flex;
+  gap: 30px;
+  margin-top: 2rem;
+}
+.contStyle3 {
+  justify-content: center;
+  display: flex;
+  gap: 30px;
+  margin-top: 2rem;
+}
+
 
 .App-header {
   background-color: #282c34;
@@ -36,3 +55,63 @@
     transform: rotate(360deg);
   }
 }
+
+:root {
+  /* Dark Theme */
+  --Very-Dark-Blue-Bg: hsl(232, 19%, 15%);
+  --Very-Dark-Blue-Top-BG: hsl(232, 19%, 15%);
+  --Dark-Desaturated-Blue: hsl(228, 28%, 20%);
+  --Desaturated-Blue: hsl(228, 34%, 66%);
+  --White: hsl(0, 0%, 100%);
+  --Lime-Green: hsl(163, 72%, 41%);
+  --Top-Linear-Gradient: hsl(210, 78%, 56%);
+  --Bright-Red: hsl(356, 69%, 56%);
+  --Top-Linear-Insta: linear-gradient(
+    to right,
+    hsl(37, 97%, 70%),
+    hsl(329, 70%, 58%)
+  );
+  --Youtube:hsl(348, 97%, 39%);
+  --Toggle-Dark:linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+  --Toggle-Light:hsl(230, 22%, 74%);
+}
+
+@media(max-width:1024px){
+  .contStyle{
+    flex-wrap: wrap;
+  }
+  .contStyle2{
+    flex-wrap: wrap;
+  }
+  .contStyle3{
+    flex-wrap: wrap;
+  }
+
+}
+
+@media(max-width:768px){
+  .contStyle{
+    flex-wrap: wrap;
+  }
+  .contStyle2{
+    flex-wrap: wrap;
+  }
+  .contStyle3{
+    flex-wrap: wrap;
+  }
+
+}
+
+@media(max-width:375px){
+  .contStyle{
+    flex-wrap: wrap;
+  }
+  .contStyle2{
+    flex-wrap: wrap;
+  }
+  .contStyle3{
+    flex-wrap: wrap;
+  }
+
+}
+

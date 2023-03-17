@@ -1,0 +1,90 @@
+
+.CardBox{
+    width: 18rem;
+    height: 14rem;
+    background-color:var(--Dark-Desaturated-Blue);
+    text-align: center;
+    border-radius: 5px;
+   
+}
+.CardBox:hover{
+    background-color: rgba(196, 196, 196, 0.384);
+}
+
+.platformTxt{
+    font-size: 14px;
+    margin-left:5px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: var(--Desaturated-Blue);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    
+}
+
+.headingRow{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.followerTxtNum{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.followersCountRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.followersTxt{
+ 
+    color: var(--Desaturated-Blue);
+    letter-spacing: 5px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.upArrowTxt{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700px;
+    color: var(--Lime-Green);
+}
+.topColor{
+    background: var(--Top-Linear-Gradient);
+    height: 5px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.topColorInsta{
+    background: var(--Top-Linear-Insta);
+    height: 5px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.topColorYoutube{
+    background: var(--Youtube);
+    height: 5px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.downArrowTxtRed{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700px;
+    color: var(--Bright-Red);
+}
+
